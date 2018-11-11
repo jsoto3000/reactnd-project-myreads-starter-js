@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import SearchPage from './SearchPage';
 import MainPage from './MainPage';
 import Book from './Book';
@@ -14,7 +14,7 @@ class BooksApp extends React.Component {
 
   changeShelves = (book, shelf) => {
 
-  // Update shelf
+
 
    BooksAPI.update(book, shelf).then(() => {
      BooksAPI.getAll().then((books) => {
