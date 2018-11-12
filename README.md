@@ -9,6 +9,7 @@ To run the application:
 * download or clone this repository
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
+* note: resolved issue with error on "Cannot resolve module 'react-dom'" referencing this [stack overflow](https://stackoverflow.com/questions/42574648/cannot-resolve-module-react-dom/42574711) post.
 
 ## What You're Seeing
 ```bash
